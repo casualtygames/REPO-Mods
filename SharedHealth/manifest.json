@@ -1,6 +1,6 @@
 {
     "name": "SharedHealth",
-    "version_number": "1.1.0",
+    "version_number": "1.2.0",
     "website_url": "https://github.com/casualtygames/REPO-Mods",
     "description": "Health packs heal everyone in the party!",
     "dependencies": [

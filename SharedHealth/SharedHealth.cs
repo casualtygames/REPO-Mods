@@ -6,7 +6,7 @@ using UnityEngine;
 // SharedHealth.cs
 namespace Casualty.SharedHealth;
 
-[BepInPlugin("Casualty.SharedHealth", "SharedHealth", "1.0")]
+[BepInPlugin("Casualty.SharedHealth", "SharedHealth", "1.2.0")]
 public class SharedHealthPlugin : BaseUnityPlugin
 {
     internal static SharedHealthPlugin Instance { get; private set; } = null!;
