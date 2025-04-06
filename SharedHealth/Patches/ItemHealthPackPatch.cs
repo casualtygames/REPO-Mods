@@ -25,6 +25,11 @@ namespace SharedHealth.Patches
                     // Heal everyone including the user
                     player.playerHealth.HealOther(__instance.healAmount, effect: true);
                     healedCount++;
+
+                    // Log each player healed
+                    SharedHealthPlugin.SharedHealthModLogger.LogInfo(
+                        $"[SharedHealth] Healed player '{player}' for {__instance.healAmount}.");
+                    
                 }
             }
 

@@ -1,3 +1,5 @@
+# v-1.2.1
+- added better logging
 
 # v-1.2.0
 - add CHANGELOG.md
